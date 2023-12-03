@@ -1,0 +1,67 @@
+vsim work.Fase2_tb
+# vsim work.Fase2_tb 
+# Start time: 13:13:55 on Dec 02,2023
+# Loading work.Fase2_tb
+# Loading work.MyDatapath
+# Loading work.MyPC
+# Loading work.MyADD_4
+# Loading work.MyIMem
+# Loading work.MyBR
+# Loading work.MyControlUnit
+# Loading work.MyALUControl
+# Loading work.MyALU
+# Loading work.MyMem
+# Loading work.MyDatapathMux
+# Loading work.MyDatapathMux_5B
+# Loading work.sign_extend
+# Loading work.Shift_Left_2
+# Loading work.ADDER
+# Loading work.Shift_Left_26_28
+add wave -position insertpoint  \
+sim:/Fase2_tb/clk_tb
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /Fase2_tb/_Datapath/_Mux_D2_ALU/#IMPLICIT-WIRE(output_data)#45 @ sub-iteration 0
+#     Source: C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/MyDatapath.v:45
+#   Active process: /Fase2_tb/_Datapath/_ALU/#IMPLICIT-WIRE(result)#41 @ sub-iteration 1
+#     Source: C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/MyDatapath.v:41
+#   Active process: /Fase2_tb/_Datapath/_MuxWriteBR/#IMPLICIT-WIRE(output_data)#43 @ sub-iteration 2
+#     Source: C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/MyDatapath.v:43
+#   Active process: /Fase2_tb/_Datapath/_BR/#IMPLICIT-WIRE(data_read2)#38 @ sub-iteration 3
+#     Source: C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/MyDatapath.v:38
+#   Active process: /Fase2_tb/_Datapath/_Mux_D2_ALU/#IMPLICIT-WIRE(output_data)#45 @ sub-iteration 4
+#     Source: C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/MyDatapath.v:45
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+quit -sim
+# End time: 13:14:38 on Dec 02,2023, Elapsed time: 0:00:43
+# Errors: 1, Warnings: 1
+vsim work.Fase2_tb
+# vsim work.Fase2_tb 
+# Start time: 13:15:37 on Dec 02,2023
+# Loading work.Fase2_tb
+# Loading work.MyDatapath
+# Loading work.MyPC
+# Loading work.MyADD_4
+# Loading work.MyIMem
+# Loading work.MyBR
+# Loading work.MyControlUnit
+# Loading work.MyALUControl
+# Loading work.MyALU
+# Loading work.MyMem
+# Loading work.MyDatapathMux
+# Loading work.MyDatapathMux_5B
+# Loading work.sign_extend
+# Loading work.Shift_Left_2
+# Loading work.ADDER
+# Loading work.Shift_Left_26_28
+add wave -position insertpoint  \
+sim:/Fase2_tb/clk_tb
+run -all
+# ** Note: $stop    : C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/Fase 2_tb.v(15)
+#    Time: 20 us  Iteration: 0  Instance: /Fase2_tb
+# Break in Module Fase2_tb at C:/Users/saraa/Desktop/Tareas/Verilog_Modelsim/3er Semestre/Arquitectura de Computadoras/20_Proyecto Final Fase 2/Fase 2_tb.v line 15
+quit -sim
+# End time: 13:16:53 on Dec 02,2023, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 1
