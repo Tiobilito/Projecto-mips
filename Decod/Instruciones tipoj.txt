@@ -1,0 +1,10 @@
+j,#40
+jal,#100
+jr, $ra
+jalr, $t0, $t1
+bgez, $t2, #150
+bltz, $t3, #-20
+j, #10
+jal, #200
+j, #50
+j, #0xABCDEF
